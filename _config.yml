@@ -3,12 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+# title: syjhp15123's blog
+title: szitguy's blog
 subtitle:
-description:
-author: John Doe
-language:
+description: 努力…奋斗…
+author: szitguy
+language: zh-Hans
 timezone:
+
+# 头像
+avatar: http://img5.imgtn.bdimg.com/it/u=2235307509,980439242&fm=21&gp=0.jpg
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -63,7 +67,10 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+# theme: landscape
+# theme: oishi
+# theme: yilia
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
