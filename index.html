@@ -318,22 +318,15 @@
 <li><p>将Github上创建的博客项目clone到本地，随便自己定个目录，执行：</p>
  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git clone 你博客项目的git链接</span><br></pre></td></tr></table></figure>
 </li>
-</ol>
-<ol>
 <li><p>然后，进入这个目录，确认当前分支是之前创建的hexo分支</p>
  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git branch</span><br><span class="line"># branch is hexo</span><br></pre></td></tr></table></figure>
 </li>
-</ol>
-<ol>
-<li>初始化hexo，执行完后会生成建博客所需的相关文件</li>
-</ol>
-<pre><code><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init</span><br></pre></td></tr></table></figure>
-</code></pre><ol>
+<li><p>初始化hexo，执行完后会生成建博客所需的相关文件</p>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init</span><br></pre></td></tr></table></figure>
+</li>
 <li><p>安装必要的依赖包</p>
  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
 </li>
-</ol>
-<ol>
 <li><p>跑起来看看</p>
  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br><span class="line"># generate static pages</span><br><span class="line">$ hexo server</span><br><span class="line"># launch hexo server</span><br></pre></td></tr></table></figure>
 <p> 执行完后，打开浏览器，输入<code>localhost:4000</code>可以看到默认的hexo博客了，当然，这是本地上的，还没有发布到github上，所以别人是看不到的</p>

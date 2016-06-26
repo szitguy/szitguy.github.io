@@ -94,7 +94,7 @@
 <meta property="og:description" content="第一篇博客，记录下这个博客是如何搭建的吧。
 准备工作去Github创建博客项目
 去自己的Github上创建一个repository，名称必须要是username.github.io这种形式的，就是说，username填写你的Github用户名。例如我的Github用户名是niubi，那么就写niubi.github.io。其他设置保持默认就行了，点击“Create Repository”按钮完成创">
-<meta property="og:updated_time" content="2016-06-26T12:55:06.000Z">
+<meta property="og:updated_time" content="2016-06-26T12:59:39.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Mac下用Github+Hexo快速搭建个人博客">
 <meta name="twitter:description" content="第一篇博客，记录下这个博客是如何搭建的吧。
@@ -318,22 +318,15 @@
 <li><p>将Github上创建的博客项目clone到本地，随便自己定个目录，执行：</p>
  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git clone 你博客项目的git链接</span><br></pre></td></tr></table></figure>
 </li>
-</ol>
-<ol>
 <li><p>然后，进入这个目录，确认当前分支是之前创建的hexo分支</p>
  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git branch</span><br><span class="line"># branch is hexo</span><br></pre></td></tr></table></figure>
 </li>
-</ol>
-<ol>
-<li>初始化hexo，执行完后会生成建博客所需的相关文件</li>
-</ol>
-<pre><code><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init</span><br></pre></td></tr></table></figure>
-</code></pre><ol>
+<li><p>初始化hexo，执行完后会生成建博客所需的相关文件</p>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init</span><br></pre></td></tr></table></figure>
+</li>
 <li><p>安装必要的依赖包</p>
  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
 </li>
-</ol>
-<ol>
 <li><p>跑起来看看</p>
  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br><span class="line"># generate static pages</span><br><span class="line">$ hexo server</span><br><span class="line"># launch hexo server</span><br></pre></td></tr></table></figure>
 <p> 执行完后，打开浏览器，输入<code>localhost:4000</code>可以看到默认的hexo博客了，当然，这是本地上的，还没有发布到github上，所以别人是看不到的</p>
